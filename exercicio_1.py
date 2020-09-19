@@ -21,5 +21,5 @@ elif qtd_caracteres == 5:
 elif qtd_caracteres == 6:
     print(f'{nome} é um nome normal')
 else:
-    qtd_caracteres > 7
+    var = qtd_caracteres > 7
     print(f'{nome} é um nome grande')
