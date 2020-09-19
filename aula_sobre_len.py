@@ -1,9 +1,10 @@
-'''
+"""
 Data : 18/09/2020
 Curso : Python 3 do Básico ao Avançado
 Aluno : Marcos Gallo
-Assunto da Aula : LEN
-'''
+Assunto da Aula : LEN - conta números de caracteres
+"""
+
 
 usuario = input('Digite seu usuário: ')
 qtd_caracteres = len(usuario)
