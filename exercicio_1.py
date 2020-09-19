@@ -14,12 +14,9 @@ Faça um programa que peça o primeiro nome do usúario. Se o nome tiver 4 letra
 nome = str(input('Escreva seu nome: '))
 qtd_caracteres = len(nome)
 
-if qtd_caracteres <= 4:
+if qtd_caracteres < 5:
     print(f'{nome} é um nome curto')
-elif qtd_caracteres == 5:
-    print(f'{nome} é um nome normal')
-elif qtd_caracteres == 6:
+elif qtd_caracteres < 7:
     print(f'{nome} é um nome normal')
 else:
-    var = qtd_caracteres > 7
     print(f'{nome} é um nome grande')
